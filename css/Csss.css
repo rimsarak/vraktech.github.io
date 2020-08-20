@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'khmer os battambang';
+}
+nav{
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+	font-family: Montserrat;
+}
+nav ul{
+	float: right;
+	margin-left: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a:hover{
+	background: rgba(0,176,255,1.00);
+	transform: .5s;
+}
+
+
+* {
+box-sizing: border-box;
+}
+.row:after {
+content: "";
+clear: both;
+display: table;
+}
+[class*="col-"] {
+float: left;
+padding: 10px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.header {
+background-color: #9933cc;
+color: #ffffff;
+padding: 10px;
+margin :10px;
+text-align: center;
+}
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.menu li {
+padding: 8px;
+margin-bottom: 10px;
+background-color: #33b5e5;
+color: #ffffff;
+}
+.menu li:hover {
+background-color: #0099cc;
+}
+.color{
+	color: black;
+	margin: 5;
+}
+.in table{
+	box-shadow: 10px;
+}
+.in-artcle{
+	font: normal;
+	
+}
+.white{
+	color: white;
+	
+}
+.box{
+	box-sizing: border-box;
+}
+	
+.margin{
+	margin:auto;
+}
+.padding{
+	padding: 10px;
+
+	
+}
+
+.footer{
+	background: #000000;
+	text-align: center;
+	resize: 50;
+	padding: 20px;
+	
+}
+.post-content{
+	background-color: azure;
+
+}
+.post-thumbnail{
+	box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.25);
+	margin: 0 0 1.5em 0;
+	resize: none;
+	
+}
+.line-height{
+	
+	line-height: 1.7;
+	display: block;
+	padding: 10px;
+	
+}
+.margin-top{
+	margin-top: 25px;
+}
+.center{
+	text-align: center;
+	background-color: darkcyan;
+}
